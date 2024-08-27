@@ -19,3 +19,6 @@ if [ $? -eq 0 ]; then
 else
     log_with_timestamp "Failed to shutdown EVE-NG PRO. Try something else and then go to bed—it's late. You'll see more clearly in the morning."
 fi
+
+# *** Keep in mind that if you use this script as it is, you will need to create a log file called log.log and place it in /root directory. You will also need to keep this file in the /root directory, or it won't work. 
+# Otherwise, you can choose the location of this script and update the path to reflect the change.
