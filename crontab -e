@@ -1,0 +1,12 @@
+#Here is an example of what you may add to your crontab 
+
+
+30 7 * * * /root/powerup.sh #this will run the powerup script at 07:30 
+0 22 * * * /root/shutdown.sh #this will run the powerdown script at 22:00 
+
+# **** Bemindful of the timezone you have your server set for. Make sure your cronjob is set up with the corresponding timezone.
+
+
+# And, as always, there is much more to learn out there on the internet, so if you get confused, the answer is just a google search away.
+# Here is a great resource if you need help setting up the cron schedule
+# https://crontab.guru
